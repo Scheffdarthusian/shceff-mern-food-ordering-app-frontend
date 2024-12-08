@@ -1,9 +1,9 @@
-import hero from "../assets/hero.png";
+import hero from "../assets/yuhan-du-qsqVYKxqlzs-unsplash.jpg";
 
 const Hero = () => {
     return (
         <div>
-            <img src={hero} className="w-full max-h-[800px] ogject-cover" />
+            <img src={hero} className="w-full max-h-[800px] object-cover" />
         </div>
     );
 };

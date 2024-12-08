@@ -27,7 +27,7 @@ const ManageRestaurantPage = () => {
       </TabsList>
       <TabsContent
         value="orders"
-        className="space-y-5 bg-gray-50 pg-10 rounded-lg"
+        className="space-y-5 bg-gray-50 pg-10 rounded-lg p-4"
       >
         <h2 className="text-2xl font-bold">{orders?.length} active orders</h2>
         {orders?.map((order) => (
